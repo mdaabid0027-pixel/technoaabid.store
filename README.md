@@ -1,31 +1,20 @@
-# Techno Aabid Store — Starter Website
+# Techno Aabid Store — Website
 
-A static, mobile-friendly product catalog with WhatsApp order links. This starter version intentionally has **no login, wallet, checkout, or payment processing**.
+Static catalogue website made with HTML, CSS, and JavaScript. Product images are included locally under `assets/products/`.
 
-## Included
-- Responsive dark gaming storefront
-- Product cards for Snake Engine, KOS Engine, AimAI, and Shinigami
-- Game and duration selectors
-- Buy buttons that open WhatsApp with a pre-filled order enquiry
-- Product filters and mobile navigation
+## Features
+- 80 catalogue cards with supplied artwork and names
+- Product filters for strikers, pucks, stickers/emojis, trails, and other items
+- Prices based on the provided screenshots and the requested striker price adjustments
+- BUY buttons open WhatsApp with the selected product and listed price prefilled
+- No account login, payment gateway, or checkout
 
-## Before launch
-- Review the product names, supported game/duration options, and terms.
-- Replace the placeholder price text after the owner provides the new price list.
-- Confirm the WhatsApp number in `script.js`.
-- Ensure products and sales comply with relevant game/service terms and local laws.
+## Publish on Vercel through GitHub
+1. Download and extract this ZIP.
+2. Upload/replace the website files in your existing GitHub repository (`mdaabid0027-pixel/technoaabid.store`). Keep the project files and `assets` folder at the repository root.
+3. Commit the changes. If Vercel is connected to that repository, it should deploy automatically.
+4. Open the Vercel deployment and test product filters and WhatsApp buttons.
 
-## Deploy on Vercel
-1. Create a new GitHub repository, e.g. `techno-aabid-store-website`.
-2. Upload `index.html`, `styles.css`, `script.js`, and the `assets/` folder to the repository root.
-3. In Vercel, choose **Add New → Project**, import the new repository, and deploy.
-4. No build command or environment variables are needed for this static starter.
-5. Vercel will assign a `.vercel.app` URL. A custom domain can be added later.
+WhatsApp destination configured: `+91 73720 67845`.
 
-Vercel Git deployments can automatically redeploy on pushes to the connected repository. See:
-https://vercel.com/docs/git
-https://vercel.com/docs/deployments/overview
-
-
-## Catalogue update
-This version has filterable categories for Engines, Strikers, Pucks, Stickers & Emojis, and Other Items. Prices are intentionally omitted. Each Buy button opens WhatsApp with the selected item name. The product visuals are editable illustrative placeholders; replace them with your own logo and product images when ready. The layout is inspired by common game-shop catalogues and is not an exact copy of Miniclip's official shop.
+Note: The autoplay/aim-assist/engine cheat listings from the screenshots were left out. This version focuses on cosmetic items and ordinary store products. Confirm current product prices and availability before accepting orders.

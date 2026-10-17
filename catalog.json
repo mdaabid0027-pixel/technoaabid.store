@@ -1,0 +1,482 @@
+[
+  {
+    "name": "Donut Striker",
+    "category": "strikers",
+    "image": "assets/products/striker-donut.png",
+    "price": 72
+  },
+  {
+    "name": "Kareem Striker",
+    "category": "strikers",
+    "image": "assets/products/striker-kareem.png",
+    "price": 72
+  },
+  {
+    "name": "Proto Striker",
+    "category": "strikers",
+    "image": "assets/products/striker-proto.png",
+    "price": 72
+  },
+  {
+    "name": "Speed Striker",
+    "category": "strikers",
+    "image": "assets/products/striker-speed.png",
+    "price": 72
+  },
+  {
+    "name": "Compass Striker",
+    "category": "strikers",
+    "image": "assets/products/striker-compass.png",
+    "price": 144
+  },
+  {
+    "name": "Shobha Striker",
+    "category": "strikers",
+    "image": "assets/products/striker-shobha.png",
+    "price": 144
+  },
+  {
+    "name": "Terminator Striker",
+    "category": "strikers",
+    "image": "assets/products/striker-terminator.png",
+    "price": 144
+  },
+  {
+    "name": "Azure Striker",
+    "category": "strikers",
+    "image": "assets/products/striker-azure-striker.png",
+    "price": 179
+  },
+  {
+    "name": "Bangladesh Striker",
+    "category": "strikers",
+    "image": "assets/products/striker-bangladesh-striker.png",
+    "price": 179
+  },
+  {
+    "name": "Champion Striker",
+    "category": "strikers",
+    "image": "assets/products/striker-champion.png",
+    "price": 179
+  },
+  {
+    "name": "Dracolens Striker",
+    "category": "strikers",
+    "image": "assets/products/striker-dracolens.png",
+    "price": 179
+  },
+  {
+    "name": "Gulaal Striker",
+    "category": "strikers",
+    "image": "assets/products/striker-gulaal.png",
+    "price": 179
+  },
+  {
+    "name": "Happy Pixel Striker",
+    "category": "strikers",
+    "image": "assets/products/striker-happy-pixel.png",
+    "price": 179
+  },
+  {
+    "name": "India Striker",
+    "category": "strikers",
+    "image": "assets/products/striker-india.png",
+    "price": 179
+  },
+  {
+    "name": "Inferno Striker",
+    "category": "strikers",
+    "image": "assets/products/striker-inferno.png",
+    "price": 179
+  },
+  {
+    "name": "Pakistan Striker",
+    "category": "strikers",
+    "image": "assets/products/striker-pakistan.png",
+    "price": 179
+  },
+  {
+    "name": "Regalia Striker",
+    "category": "strikers",
+    "image": "assets/products/striker-regaliya.png",
+    "price": 179
+  },
+  {
+    "name": "Saudi Arabia Striker",
+    "category": "strikers",
+    "image": "assets/products/striker-saudi-arabia.png",
+    "price": 179
+  },
+  {
+    "name": "Serpent Striker",
+    "category": "strikers",
+    "image": "assets/products/striker-serpent.png",
+    "price": 179
+  },
+  {
+    "name": "UK Striker",
+    "category": "strikers",
+    "image": "assets/products/striker-uk.png",
+    "price": 179
+  },
+  {
+    "name": "USA Striker",
+    "category": "strikers",
+    "image": "assets/products/striker-usa.png",
+    "price": 179
+  },
+  {
+    "name": "Veer Striker",
+    "category": "strikers",
+    "image": "assets/products/striker-veer.png",
+    "price": 179
+  },
+  {
+    "name": "Volcanic Striker",
+    "category": "strikers",
+    "image": "assets/products/striker-volcanic.png",
+    "price": 179
+  },
+  {
+    "name": "Precious Striker",
+    "category": "strikers",
+    "image": "assets/products/striker-precious.png",
+    "price": 179
+  },
+  {
+    "name": "Donut Sticker",
+    "category": "stickers",
+    "image": "assets/products/striker-donut.png",
+    "price": 72
+  },
+  {
+    "name": "Kareem Sticker",
+    "category": "stickers",
+    "image": "assets/products/striker-kareem.png",
+    "price": 72
+  },
+  {
+    "name": "Proto Sticker",
+    "category": "stickers",
+    "image": "assets/products/striker-proto.png",
+    "price": 72
+  },
+  {
+    "name": "Speed Sticker",
+    "category": "stickers",
+    "image": "assets/products/striker-speed.png",
+    "price": 72
+  },
+  {
+    "name": "Compass Sticker",
+    "category": "stickers",
+    "image": "assets/products/striker-compass.png",
+    "price": 144
+  },
+  {
+    "name": "Shobha Sticker",
+    "category": "stickers",
+    "image": "assets/products/striker-shobha.png",
+    "price": 144
+  },
+  {
+    "name": "Terminator Sticker",
+    "category": "stickers",
+    "image": "assets/products/striker-terminator.png",
+    "price": 144
+  },
+  {
+    "name": "Azure Sticker",
+    "category": "stickers",
+    "image": "assets/products/striker-azure-striker.png",
+    "price": 179
+  },
+  {
+    "name": "Bangladesh Sticker",
+    "category": "stickers",
+    "image": "assets/products/striker-bangladesh-striker.png",
+    "price": 179
+  },
+  {
+    "name": "Champion Sticker",
+    "category": "stickers",
+    "image": "assets/products/striker-champion.png",
+    "price": 179
+  },
+  {
+    "name": "Dracolens Sticker",
+    "category": "stickers",
+    "image": "assets/products/striker-dracolens.png",
+    "price": 179
+  },
+  {
+    "name": "Gulaal Sticker",
+    "category": "stickers",
+    "image": "assets/products/striker-gulaal.png",
+    "price": 179
+  },
+  {
+    "name": "Happy Pixel Sticker",
+    "category": "stickers",
+    "image": "assets/products/striker-happy-pixel.png",
+    "price": 179
+  },
+  {
+    "name": "India Sticker",
+    "category": "stickers",
+    "image": "assets/products/striker-india.png",
+    "price": 179
+  },
+  {
+    "name": "Inferno Sticker",
+    "category": "stickers",
+    "image": "assets/products/striker-inferno.png",
+    "price": 179
+  },
+  {
+    "name": "Pakistan Sticker",
+    "category": "stickers",
+    "image": "assets/products/striker-pakistan.png",
+    "price": 179
+  },
+  {
+    "name": "Regalia Sticker",
+    "category": "stickers",
+    "image": "assets/products/striker-regaliya.png",
+    "price": 179
+  },
+  {
+    "name": "Saudi Arabia Sticker",
+    "category": "stickers",
+    "image": "assets/products/striker-saudi-arabia.png",
+    "price": 179
+  },
+  {
+    "name": "Serpent Sticker",
+    "category": "stickers",
+    "image": "assets/products/striker-serpent.png",
+    "price": 179
+  },
+  {
+    "name": "UK Sticker",
+    "category": "stickers",
+    "image": "assets/products/striker-uk.png",
+    "price": 179
+  },
+  {
+    "name": "USA Sticker",
+    "category": "stickers",
+    "image": "assets/products/striker-usa.png",
+    "price": 179
+  },
+  {
+    "name": "Veer Sticker",
+    "category": "stickers",
+    "image": "assets/products/striker-veer.png",
+    "price": 179
+  },
+  {
+    "name": "Volcanic Sticker",
+    "category": "stickers",
+    "image": "assets/products/striker-volcanic.png",
+    "price": 179
+  },
+  {
+    "name": "Precious Sticker",
+    "category": "stickers",
+    "image": "assets/products/striker-precious.png",
+    "price": 179
+  },
+  {
+    "name": "Bishop Puck",
+    "category": "pucks",
+    "image": "assets/products/puck-bishop.png",
+    "price": 72
+  },
+  {
+    "name": "Cookie Puck",
+    "category": "pucks",
+    "image": "assets/products/puck-cookie.png",
+    "price": 72
+  },
+  {
+    "name": "Fyreskin Puck",
+    "category": "pucks",
+    "image": "assets/products/puck-fyreskin.png",
+    "price": 72
+  },
+  {
+    "name": "Rangeela Puck",
+    "category": "pucks",
+    "image": "assets/products/puck-rangeela.png",
+    "price": 72
+  },
+  {
+    "name": "Rook Puck",
+    "category": "pucks",
+    "image": "assets/products/puck-rook.png",
+    "price": 72
+  },
+  {
+    "name": "Zippy Puck",
+    "category": "pucks",
+    "image": "assets/products/puck-zippy.png",
+    "price": 72
+  },
+  {
+    "name": "Eclipse Puck",
+    "category": "pucks",
+    "image": "assets/products/puck-eclipse.png",
+    "price": 72
+  },
+  {
+    "name": "Madhu Puck",
+    "category": "pucks",
+    "image": "assets/products/puck-madhu.png",
+    "price": 72
+  },
+  {
+    "name": "Splash Puck",
+    "category": "pucks",
+    "image": "assets/products/puck-splash.png",
+    "price": 72
+  },
+  {
+    "name": "Dizzy Emoji",
+    "category": "emojis",
+    "image": "assets/products/emoji-dizzy.png",
+    "price": 36
+  },
+  {
+    "name": "Firesticks Emoji",
+    "category": "emojis",
+    "image": "assets/products/emoji-firesticks.png",
+    "price": 36
+  },
+  {
+    "name": "Flip Emoji",
+    "category": "emojis",
+    "image": "assets/products/emoji-flip.png",
+    "price": 36
+  },
+  {
+    "name": "Lamp Emoji",
+    "category": "emojis",
+    "image": "assets/products/emoji-lamp.png",
+    "price": 36
+  },
+  {
+    "name": "Tangled Emoji",
+    "category": "emojis",
+    "image": "assets/products/emoji-trangled.png",
+    "price": 36
+  },
+  {
+    "name": "Shiver Emoji",
+    "category": "emojis",
+    "image": "assets/products/emoji-shiver.png",
+    "price": 36
+  },
+  {
+    "name": "Yeah Emoji",
+    "category": "emojis",
+    "image": "assets/products/emoji-yeah.png",
+    "price": 36
+  },
+  {
+    "name": "Libra Avatar",
+    "category": "extras",
+    "image": "assets/products/avatar-libra.png",
+    "price": 36
+  },
+  {
+    "name": "Virgo Avatar",
+    "category": "extras",
+    "image": "assets/products/avatar-virgo.png",
+    "price": 36
+  },
+  {
+    "name": "Festivals of Lights Frame",
+    "category": "extras",
+    "image": "assets/products/frame-festival-of-lights-frame.png",
+    "price": 72
+  },
+  {
+    "name": "Wild Frame",
+    "category": "extras",
+    "image": "assets/products/frame-wild-frame.png",
+    "price": 72
+  },
+  {
+    "name": "Burst Trails",
+    "category": "trails",
+    "image": "assets/products/trails-burst.png",
+    "price": 108
+  },
+  {
+    "name": "Flame Trails",
+    "category": "trails",
+    "image": "assets/products/trails-flame.png",
+    "price": 108
+  },
+  {
+    "name": "Mystic Trails",
+    "category": "trails",
+    "image": "assets/products/trails-mystic.png",
+    "price": 108
+  },
+  {
+    "name": "Aqua Trails",
+    "category": "trails",
+    "image": "assets/products/trails-aqua.png",
+    "price": 108
+  },
+  {
+    "name": "Verdant Trails",
+    "category": "trails",
+    "image": "assets/products/trails-verdent.png",
+    "price": 108
+  },
+  {
+    "name": "Zazzle Trails",
+    "category": "trails",
+    "image": "assets/products/trails-zazzle.png",
+    "price": 144
+  },
+  {
+    "name": "Scorch Trails",
+    "category": "trails",
+    "image": "assets/products/trails-scorch.png",
+    "price": 144
+  },
+  {
+    "name": "Carrom Pass",
+    "category": "extras",
+    "image": "assets/products/additional-information-carrom-pass.png",
+    "price": 119
+  },
+  {
+    "name": "Coins — Available Now",
+    "category": "extras",
+    "image": "assets/products/additional-information-coins.png",
+    "price": 199
+  },
+  {
+    "name": "Gems — Available Now",
+    "category": "extras",
+    "image": "assets/products/additional-information-gems.png",
+    "price": 250
+  },
+  {
+    "name": "Coins in Stock",
+    "category": "extras",
+    "image": "assets/products/additional-information-coins-stock.png",
+    "price": 250
+  },
+  {
+    "name": "8 Ball Pool Products",
+    "category": "extras",
+    "image": "assets/products/additional-information-8-bp-available.png",
+    "price": 399
+  }
+]
