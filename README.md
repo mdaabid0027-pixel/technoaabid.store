@@ -25,3 +25,7 @@ A static, mobile-friendly product catalog with WhatsApp order links. This starte
 Vercel Git deployments can automatically redeploy on pushes to the connected repository. See:
 https://vercel.com/docs/git
 https://vercel.com/docs/deployments/overview
+
+
+## Catalogue update
+This version has filterable categories for Engines, Strikers, Pucks, Stickers & Emojis, and Other Items. Prices are intentionally omitted. Each Buy button opens WhatsApp with the selected item name. The product visuals are editable illustrative placeholders; replace them with your own logo and product images when ready. The layout is inspired by common game-shop catalogues and is not an exact copy of Miniclip's official shop.
