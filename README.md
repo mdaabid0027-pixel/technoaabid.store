@@ -16,3 +16,11 @@ Static HTML/CSS/JavaScript catalogue. This update adds the supplied neon portrai
 
 ## Important limitations
 This is still a static frontend. The previously discussed secure email/password admin login, database-backed orders, payment QR flow, OTP customer login, and order-status management are **not implemented** in this ZIP; those require a backend/database and secure environment configuration. The round header logo is cropped from the supplied neon portrait as a temporary version; upload the original standalone logo image for a sharper exact logo.
+
+
+## Latest homepage refresh
+- Compact neon gaming hero inspired by the supplied reference.
+- Original round Techno Aabid Carrom Pool logo in the header, hero and browser-tab icon.
+- Responsive benefits strip and product search field.
+- Search filters the existing catalogue; product cards and WhatsApp order links remain interactive.
+- Autoplay/aim-cheat products are not included.

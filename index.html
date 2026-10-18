@@ -6,7 +6,8 @@
   <meta name="theme-color" content="#070b16">
   <meta name="description" content="Techno Aabid Store — browse gaming digital products and contact us on WhatsApp to order.">
   <title>Techno Aabid Store | Gaming Digital Store</title>
-  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="assets/techno-aabid-logo-crop.png" type="image/png">
+  <link rel="apple-touch-icon" href="assets/techno-aabid-logo-crop.png">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -17,9 +18,10 @@
       <span class="brand-copy"><strong>TECHNO AABID</strong><small>STORE</small></span>
     </a>
     <nav class="desktop-nav" aria-label="Main navigation">
-      <a href="#home">Home</a><a href="#products">Products</a><a href="#how">How to order</a>
+      <a class="nav-home" href="#home">⌂ <span>Home</span></a><a href="#products">▦ <span>Products</span></a><a href="#how">ⓘ <span>How to order</span></a>
     </nav>
-    <a class="header-cta" href="#products">Explore Store <span>↗</span></a>
+    <label class="header-search"><span aria-hidden="true">⌕</span><input id="productSearch" type="search" placeholder="Search products..." aria-label="Search products"></label>
+    <a class="header-cta" href="#products">Explore Store <span>→</span></a>
     <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false">☰</button>
   </header>
 
@@ -45,11 +47,15 @@
       <div class="hero-art hero-photo-wrap" aria-label="Techno Aabid neon gaming portrait">
         <img class="hero-photo" src="assets/techno-aabid-hero.png" alt="Techno Aabid Store neon gaming portrait">
         <div class="floating-chip chip-top"><span>✦</span> TECHNO AABID</div>
-        <div class="floating-chip chip-bottom"><span class="chip-dot"></span> QUICK ORDER ON WHATSAPP</div>
       </div>
-      <div class="hero-bottom-line"><span>BUILT FOR GAMERS</span><span>SCROLL TO EXPLORE ↓</span></div>
     </section>
 
+    <section class="benefits-strip section-wrap" aria-label="Store benefits">
+      <div><span class="benefit-icon lightning">ϟ</span><p><strong>100%</strong><small>Original Products</small></p></div>
+      <div><span class="benefit-icon shield">✓</span><p><strong>Safe & Secure</strong><small>Ordering</small></p></div>
+      <div><span class="benefit-icon whatsapp">◉</span><p><strong>Quick Order</strong><small>on WhatsApp</small></p></div>
+      <div><span class="benefit-icon gamepad">🎮</span><p><strong>Wide Range</strong><small>Gaming Items</small></p></div>
+    </section>
     <section class="products-section section-wrap" id="products">
       <div class="section-heading">
         <div><div class="eyebrow"><span class="eyebrow-line"></span> CARROM + GAMING CATALOGUE</div><h2>Explore <span>All Items</span></h2></div>

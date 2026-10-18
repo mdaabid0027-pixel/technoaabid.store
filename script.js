@@ -50,3 +50,18 @@ menuToggle.addEventListener("click", () => {
  const isOpen = nav.classList.toggle("open"); menuToggle.setAttribute("aria-expanded", String(isOpen)); menuToggle.textContent = isOpen ? "×" : "☰";
 });
 nav.querySelectorAll("a").forEach(link => link.addEventListener("click", () => { nav.classList.remove("open"); menuToggle.setAttribute("aria-expanded", "false"); menuToggle.textContent = "☰"; }));
+
+// Live catalogue search in the header
+const productSearch = document.getElementById("productSearch");
+if (productSearch) {
+  productSearch.addEventListener("input", () => {
+    const query = productSearch.value.trim().toLowerCase();
+    document.querySelectorAll(".product-card").forEach(card => {
+      const matchesText = card.textContent.toLowerCase().includes(query);
+      const categoryFilter = document.querySelector(".filter.active")?.dataset.filter || "all";
+      const category = card.dataset.product;
+      const matchesCategory = categoryFilter === "all" || category === categoryFilter || (categoryFilter === "stickers" && category === "emojis");
+      card.classList.toggle("hidden", !(matchesText && matchesCategory));
+    });
+  });
+}
