@@ -1,20 +1,18 @@
-# Techno Aabid Store — Website
+# Techno Aabid Store — Updated Website
 
-Static catalogue website made with HTML, CSS, and JavaScript. Product images are included locally under `assets/products/`.
+Static HTML/CSS/JavaScript catalogue. This update adds the supplied neon portrait to the homepage, uses a round logo crop from that image in the header, and opens full-size product images in a popup when a product image is clicked.
 
-## Features
-- 80 catalogue cards with supplied artwork and names
-- Product filters for strikers, pucks, stickers/emojis, trails, and other items
-- Prices based on the provided screenshots and the requested striker price adjustments
-- BUY buttons open WhatsApp with the selected product and listed price prefilled
-- No account login, payment gateway, or checkout
+## Included
+- Existing 80-item catalogue and category filters
+- Full-size image popup for product images
+- WhatsApp order buttons using +91 73720 67845
+- Responsive homepage hero artwork
+- Prices remain for the existing standard catalogue items; no cheat-engine listings are included
 
-## Publish on Vercel through GitHub
-1. Download and extract this ZIP.
-2. Upload/replace the website files in your existing GitHub repository (`mdaabid0027-pixel/technoaabid.store`). Keep the project files and `assets` folder at the repository root.
-3. Commit the changes. If Vercel is connected to that repository, it should deploy automatically.
-4. Open the Vercel deployment and test product filters and WhatsApp buttons.
+## Deploy to Vercel
+1. Extract this ZIP.
+2. Replace the existing website files in GitHub repository `mdaabid0027-pixel/technoaabid.store` with the contents of `techno-aabid-store-website/`.
+3. Commit the changes. If Vercel is connected to GitHub, it should redeploy automatically.
 
-WhatsApp destination configured: `+91 73720 67845`.
-
-Note: The autoplay/aim-assist/engine cheat listings from the screenshots were left out. This version focuses on cosmetic items and ordinary store products. Confirm current product prices and availability before accepting orders.
+## Important limitations
+This is still a static frontend. The previously discussed secure email/password admin login, database-backed orders, payment QR flow, OTP customer login, and order-status management are **not implemented** in this ZIP; those require a backend/database and secure environment configuration. The round header logo is cropped from the supplied neon portrait as a temporary version; upload the original standalone logo image for a sharper exact logo.

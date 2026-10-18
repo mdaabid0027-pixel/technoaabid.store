@@ -13,7 +13,7 @@
   <div class="announcement">WELCOME TO <strong>TECHNO AABID STORE</strong> <span>•</span> Quick orders on WhatsApp</div>
   <header class="site-header">
     <a class="brand" href="#" aria-label="Techno Aabid Store home">
-      <span class="brand-mark">TA</span>
+      <img class="brand-logo" src="assets/techno-aabid-logo-crop.png" alt="Techno Aabid Store original round logo">
       <span class="brand-copy"><strong>TECHNO AABID</strong><small>STORE</small></span>
     </a>
     <nav class="desktop-nav" aria-label="Main navigation">
@@ -29,7 +29,7 @@
       <div class="hero-content">
         <div class="eyebrow"><span class="pulse"></span> YOUR DIGITAL GAMING STORE</div>
         <h1>LEVEL UP YOUR<br><span>GAME.</span></h1>
-        <p class="hero-description">Browse original product images, compare the listed prices, and tap BUY to enquire through WhatsApp.</p>
+        <p class="hero-description">Explore Carrom Pool items with full-size previews. Tap BUY to enquire directly through WhatsApp.</p>
         <div class="hero-actions">
           <a class="btn btn-primary" href="#products">Browse Products <span>↓</span></a>
           <a class="btn btn-ghost" href="#how">How it works</a>
@@ -42,12 +42,10 @@
           <div><strong>Easy</strong><span>Order process</span></div>
         </div>
       </div>
-      <div class="hero-art" aria-label="Gaming-inspired abstract artwork">
-        <div class="art-orbit orbit-a"></div><div class="art-orbit orbit-b"></div>
-        <div class="art-core"><span class="core-light"></span><strong>TA</strong><small>GAMING<br>STORE</small></div>
-        <div class="floating-chip chip-top"><span>✦</span> DIGITAL GOODS</div>
-        <div class="floating-chip chip-bottom"><span class="chip-dot"></span> READY TO ORDER</div>
-        <div class="art-cross cross-a">+</div><div class="art-cross cross-b">×</div>
+      <div class="hero-art hero-photo-wrap" aria-label="Techno Aabid neon gaming portrait">
+        <img class="hero-photo" src="assets/techno-aabid-hero.png" alt="Techno Aabid Store neon gaming portrait">
+        <div class="floating-chip chip-top"><span>✦</span> TECHNO AABID</div>
+        <div class="floating-chip chip-bottom"><span class="chip-dot"></span> QUICK ORDER ON WHATSAPP</div>
       </div>
       <div class="hero-bottom-line"><span>BUILT FOR GAMERS</span><span>SCROLL TO EXPLORE ↓</span></div>
     </section>
@@ -85,8 +83,12 @@
       <a class="btn btn-primary" id="contactWhatsApp" href="https://wa.me/917372067845" target="_blank" rel="noopener">Chat on WhatsApp <span>↗</span></a>
     </section>
   </main>
-  <footer><a class="brand footer-brand" href="#"><span class="brand-mark">TA</span><span class="brand-copy"><strong>TECHNO AABID</strong><small>STORE</small></span></a><span>© <span id="year"></span> Techno Aabid Store</span><a href="#home">Back to top ↑</a></footer>
+  <footer><a class="brand footer-brand" href="#"><img class="brand-logo" src="assets/techno-aabid-logo-crop.png" alt="Techno Aabid Store original round logo"><span class="brand-copy"><strong>TECHNO AABID</strong><small>STORE</small></span></a><span>© <span id="year"></span> Techno Aabid Store</span><a href="#home">Back to top ↑</a></footer>
   <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <div class="image-modal" id="imageModal" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Product image preview">
+    <button class="modal-close" id="modalClose" aria-label="Close preview">×</button>
+    <div class="modal-content"><img id="modalImage" src="" alt=""><div id="modalCaption" class="modal-caption"></div></div>
+  </div>
   <script src="script.js"></script>
 </body>
 </html>

@@ -4,11 +4,23 @@ const productGrid = document.getElementById("productGrid");
 const categoryLabels = {strikers:"STRIKER COLLECTION",pucks:"PUCK COLLECTION",stickers:"STICKER COLLECTION",emojis:"EMOJI COLLECTION",trails:"TRAILS COLLECTION",extras:"OTHER ITEMS"};
 productGrid.innerHTML = products.map((p, i) => `
   <article class="product-card" data-product="${p.category}">
-    <div class="product-visual product-image-visual"><img src="${p.image}" alt="${p.name}" loading="lazy"><span class="product-tag">${p.category === "extras" ? "ITEM" : p.category.replace(/s$/, "").toUpperCase()}</span></div>
+    <button class="product-visual product-image-visual image-preview" type="button" data-preview-index="${i}" aria-label="View full image of ${p.name}"><img src="${p.image}" alt="${p.name}" loading="lazy"><span class="product-tag">${p.category === "extras" ? "ITEM" : p.category.replace(/s$/, "").toUpperCase()}</span><span class="zoom-hint">VIEW FULL IMAGE ↗</span></button>
     <div class="product-info"><div class="product-category">${categoryLabels[p.category] || "STORE COLLECTION"}</div><h3>${p.name}</h3>
       <div class="product-buy-row"><div class="price"><small>PRICE</small><strong>₹${p.price}.00</strong></div><button class="buy-button" data-buy-index="${i}"><span class="wa-icon">◉</span> BUY <span>↗</span></button></div>
     </div>
   </article>`).join("");
+
+
+const imageModal = document.getElementById("imageModal");
+const modalImage = document.getElementById("modalImage");
+const modalCaption = document.getElementById("modalCaption");
+const modalClose = document.getElementById("modalClose");
+function closeImageModal(){ imageModal.classList.remove("open"); imageModal.setAttribute("aria-hidden", "true"); modalImage.src = ""; document.body.classList.remove("modal-open"); }
+function openImageModal(product){ modalImage.src = product.image; modalImage.alt = product.name; modalCaption.textContent = product.name; imageModal.classList.add("open"); imageModal.setAttribute("aria-hidden", "false"); document.body.classList.add("modal-open"); }
+productGrid.addEventListener("click", (event) => { const button = event.target.closest("[data-preview-index]"); if (button) openImageModal(products[Number(button.dataset.previewIndex)]); });
+modalClose.addEventListener("click", closeImageModal);
+imageModal.addEventListener("click", (event) => { if (event.target === imageModal) closeImageModal(); });
+document.addEventListener("keydown", (event) => { if (event.key === "Escape") closeImageModal(); });
 
 document.getElementById("year").textContent = new Date().getFullYear();
 document.querySelectorAll(".filter").forEach(button => {
