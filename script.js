@@ -42,6 +42,14 @@ document.querySelectorAll("[data-buy-index]").forEach(button => {
     window.open(`https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`, "_blank", "noopener,noreferrer");
   });
 });
+document.querySelectorAll("[data-feature-buy]").forEach(button => {
+  button.addEventListener("click", () => {
+    const productName = button.dataset.featureBuy;
+    const message = `Hello Techno Aabid Store! 👋\n\nI want to enquire about: ${productName}.\nPlease share availability and details on WhatsApp. Thank you!`;
+    window.open(`https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`, "_blank", "noopener,noreferrer");
+  });
+});
+
 const contactMessage = encodeURIComponent("Hello Techno Aabid Store! I need help with a product.");
 document.getElementById("contactWhatsApp").href = `https://wa.me/${WHATSAPP_NUMBER}?text=${contactMessage}`;
 const menuToggle = document.getElementById("menuToggle");

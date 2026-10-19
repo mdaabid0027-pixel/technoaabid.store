@@ -24,3 +24,7 @@ This is still a static frontend. The previously discussed secure email/password 
 - Responsive benefits strip and product search field.
 - Search filters the existing catalogue; product cards and WhatsApp order links remain interactive.
 - Autoplay/aim-cheat products are not included.
+
+
+## Featured offers update
+The homepage now shows eight featured cards directly below the hero: Snake Engine, AimAI, KOS DS Engine, Shinigami Engine, Auto Play, Carrom Pass, Coins, and 8 Ball Pool Products. These featured cards show no prices and their buttons open WhatsApp with the selected item name. The browser tab icon uses the store's round logo.
